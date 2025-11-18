@@ -1,2 +1,5 @@
 # NewCarStatistics
 Analyzing car-sales data downloaded from the EU statistics portal, providing insights into trends across electric, hybrid, petrol, diesel, and other fuel types. The project highlights sales patterns over time, fuel-type distributions, and overall shifts in automotive preferences across nordic countries.
+
+
+I completed a Power BI project using real car-sales statistics downloaded from the ec.europa.eu database 🚗📊. After importing the raw file, I performed initial cleaning in Excel—removing blank rows, fixing inconsistent formatting, and standardizing fuel-type fields 🧹—and then used SQL (SSMS) for deeper cleaning, type conversions, and preparing a fully usable dataset 💾. With the data ready, I built a simple but clear Power BI dashboard that highlights trends across electric ⚡, hybrid 🔋, petrol ⛽, diesel 🛢️, and other fuel categories, including total sales, distributions, and changes over time 📈. The project demonstrates my ability to clean messy data, structure it for analysis, and communicate insights through intuitive visualizations 🌍✨.
