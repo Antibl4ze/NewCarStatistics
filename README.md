@@ -1,5 +1,16 @@
-# NewCarStatistics
-Analyzing car-sales data downloaded from the EU statistics portal, providing insights into trends across electric, hybrid, petrol, diesel, and other fuel types. The project highlights sales patterns over time, fuel-type distributions, and overall shifts in automotive preferences across nordic countries.
+# Nordic New-Car Sales by Fuel Type
 
+Analysis of new passenger car registrations in the Nordic countries using data from the EU statistics portal (Eurostat), comparing electric, hybrid, petrol, diesel and other fuel types over time.
 
-I completed a Power BI project using real car-sales statistics downloaded from the ec.europa.eu database 🚗📊. After importing the raw file, I performed initial cleaning in Excel—removing blank rows, fixing inconsistent formatting, and standardizing fuel-type fields 🧹—and then used SQL (SSMS) for deeper cleaning, type conversions, and preparing a fully usable dataset 💾. With the data ready, I built a simple but clear Power BI dashboard that highlights trends across electric ⚡, hybrid 🔋, petrol ⛽, diesel 🛢️, and other fuel categories, including total sales, distributions, and changes over time 📈. The project demonstrates my ability to clean messy data, structure it for analysis, and communicate insights through intuitive visualizations 🌍✨.
+## What I did
+- Cleaned the raw file in Excel: removed blank rows and fixed inconsistent formatting
+- Continued in SQL Server: replaced missing-value markers with NULL/0, trimmed spaces, converted text columns to numbers
+- Wrote queries for totals and shares of each fuel type by country and year
+- Built a Power BI dashboard showing sales by fuel type, distributions and changes over time
+
+## Files
+- `NewCarQuery.sql` – cleaning and analysis queries
+- `PowerBI+ExcelLink` – link to the Power BI and Excel files
+
+## Tools
+Excel, SQL Server (SSMS), Power BI
