@@ -2,6 +2,9 @@
 
 Analysis of new passenger car registrations in the Nordic countries using data from the EU statistics portal (Eurostat), comparing electric, hybrid, petrol, diesel and other fuel types over time.
 
+## Dashboard
+![Nordic car sales Power BI dashboard](images/nordic-car-sales-dashboard.png)
+
 ## What I did
 - Cleaned the raw file in Excel: removed blank rows and fixed inconsistent formatting
 - Continued in SQL Server: replaced missing-value markers with NULL/0, trimmed spaces, converted text columns to numbers
